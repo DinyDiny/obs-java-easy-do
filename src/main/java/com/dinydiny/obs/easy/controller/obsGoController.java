@@ -25,4 +25,8 @@ public class obsGoController {
         String name=obsBucketService.createBucket(bucketName).getBucketName();
         return name;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
