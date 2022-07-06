@@ -20,7 +20,7 @@ public class obsGoController {
     private ObsBucketService obsBucketService;
 
 
-    @GetMapping("/go")
+    @GetMapping("/go1")
     public String createBucket(String bucketName) {
         String name=obsBucketService.createBucket(bucketName).getBucketName();
         return name;
